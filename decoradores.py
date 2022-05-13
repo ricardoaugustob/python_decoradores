@@ -6,7 +6,7 @@ def validar(func):
             raise ValueError, print("Voce digitou letras ao invés de numeros")
     return valida
 
-@validar
+@validar # decorador que valida a função
 def soma(x,y):
     return x+y
 
