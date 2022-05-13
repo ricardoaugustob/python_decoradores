@@ -11,4 +11,4 @@ def soma(x,y):
     return x+y
 
 
-print(soma(10,'ggg'))
+print(soma(10,10))
